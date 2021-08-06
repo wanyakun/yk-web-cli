@@ -12,13 +12,40 @@ git clone https://github.com/wanyakun/yk-web-cli.git
 npm install
 # 建立本地命令
 npm link
+```
+
+### 查看命令
+
+```
+# 查看命令
+yk -h
+```
+
+### 查看模板
+
+```
+# 查看模板
+yk list
+```
+
+### 创建项目
+
+```
 # 使用cli生成项目
 cd ${目标目录}
 yk init
 ```
 
-### 查看模板
-
-### 创建项目
-
 ### 添加模板
+
+```
+# 添加模板
+yk add
+```
+
+### 删除模板
+
+```
+# 添加模板
+yk del
+```
